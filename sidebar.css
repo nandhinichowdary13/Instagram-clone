@@ -1,0 +1,138 @@
+.sidebar{
+  height: 100%;
+  width: 220px;
+  padding:9px 13px 9px 13px;
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+  left:0;
+  bottom:0;
+  top:0px;
+  border-right: 1px solid rgb(203, 203, 203);
+
+}
+.instagram{
+  height: 37px;
+  width: 196px;
+  margin-bottom:19px;
+  padding-top:20px;
+  
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  position: relative;
+  
+}
+.instagram-logo .tooltip{
+  position:absolute;
+    border:1px solid rgb(120, 119, 119);
+    font-size:12px;
+    top:62px;
+    left:60px;
+    height:19px;
+    padding:3px 6px;
+    font-family:Roboto,arial;
+    opacity:0;
+    border-radius: 1px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    color:rgb(28, 23, 23);
+    background-color: white;
+
+
+
+}
+.instagram-logo-one{
+  height:29px;
+  width:103px;
+
+  
+}
+.instagram-logo{
+  height:17px;
+  width:196px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+.elements{
+  width:196px;
+  height:28px;
+  margin:2px 0px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position:relative;
+  cursor:pointer;
+}
+.elements:hover{
+    border-radius:10px;
+    background-color: rgb(235, 235, 235);
+}
+.elements img{
+  height:24px;
+  width:24px;
+  
+}
+.elements div{
+  padding: 0px 0px 0px 16px;
+  height:24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  display:flex;
+  align-items: center;
+
+}
+.profile-pic{
+  border-radius: 12px;
+}
+.elements .tooltip{
+    position:absolute;
+    border:1px solid rgb(120, 119, 119);
+    font-size:12px;
+    top:40px;
+    left:38px;
+    height:19px;
+    padding:3px 6px;
+    font-family:Roboto,arial;
+    opacity:0;
+    border-radius: 1px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    color:rgb(28, 23, 23);
+    background-color: white;
+}
+.elements:hover .tooltip,
+.instagram-logo:hover .tooltip{
+    opacity:1;
+}
+.message-count{
+    position:absolute;
+    background-color: rgb(241, 57, 57);
+    color:white;
+    top:8px;
+    left:24px;
+    font-family:Roboto,arial;
+    font-size:13px;
+    height:20px;
+    padding:1px;
+    border-radius:14px;
+    width:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification-count{
+  position:absolute;  
+  top:7.2px;
+  left:14.2px;
+  max-height:9px;
+  border-radius:4.5px;
+  max-width:9px;
+  z-index: 200;
+}
